@@ -1,0 +1,67 @@
+.todo-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 25px;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 20px;
+    color: #333;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    margin-bottom: 16px;
+}
+
+.todo-items-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+}
+
+.todo-items-container button {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: none;
+    background-color: #edeef0;
+    color: #002765;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.todo-items-container button:hover {
+    background-color: #d6d7db;
+}
+
+.todo-items-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #002765;
+    word-break: break-word;
+    flex: 1;
+    transition: all 0.3s ease;
+  }
+  
+  .line-through {
+    text-decoration: line-through;
+    color: #999;
+  }
+
+.todo-items > button {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ffdddd;
+    color: #ff2b2b;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.todo-items > button:hover {
+    background-color: #ffc0c0;
+}
